@@ -1,7 +1,6 @@
 ---
 layout: single
 title: "Transformer models (2023-02-12)"
-date: 2023-02-12
 categories: [paper]
 tag: [NLP, Machine Learning, Deep Learning, Catalog, Classification]
 toc: true
