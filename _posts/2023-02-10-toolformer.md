@@ -14,6 +14,12 @@ Recent research proposes Toolformer, a model that can teach itself to use extern
 [arxiv](https://arxiv.org/pdf/2302.04761.pdf)
 - LMs are good at solving new tasks with just a few examples but struggle with some basic tasks. Toolformer is a model that can teach itself to use external tools via simple APIs and achieve better performance on downstream tasks without sacrificing its core language modeling abilities.
 
+1️⃣ The underlying assumption of this paper is that language models can be taught to use external tools through simple APIs, and that this approach can improve their zero-shot performance on downstream tasks.
+
+2️⃣ The methodology used in this paper is the development of a new model called Toolformer, which is trained to decide which APIs to call, when to call them, what arguments to pass, and how to best incorporate the results into future token prediction. The model is trained in a self-supervised way, requiring only a handful of demonstrations for each API. The researchers incorporate a range of tools into the model, including a calculator, a Q&A system, two search engines, a translation system, and a calendar.
+
+3️⃣ The implications of this research are that language models can be enhanced to perform better on a variety of downstream tasks by incorporating external tools via simple APIs. This could have significant applications in natural language processing and artificial intelligence, particularly in cases where complex information retrieval or processing is required.
+
 ## Augmented Language Models: a Survey
 - This survey discusses Augmented Language Models (ALMs), which augment LMs with reasoning and tool use abilities. ALMs can use external modules to expand their context processing ability, and can learn to reason and use tools while still performing natural language tasks. ALMs have the potential to address limitations of traditional LMs such as interpretability, consistency, and scalability.
 

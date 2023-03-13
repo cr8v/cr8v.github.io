@@ -15,6 +15,13 @@ toc_label: Contents
 - The system allows for feedback and corrected results, and experiments show its effectiveness in investigating the visual roles of ChatGPT with the help of Visual Foundation Models.
 - The paper highlights the potential of multi-modal AI collaboration and is accompanied by a publicly available implementation.
 
+1️⃣ The underlying assumption of this paper is that combining ChatGPT with Visual Foundation Models can enable the user to interact with ChatGPT using both language and images, and to provide complex visual questions or editing instructions that require the collaboration of multiple AI models with multi-steps.
+
+2️⃣ The methodology used in this paper is the development of a system called Visual ChatGPT, which incorporates different Visual Foundation Models to allow for the interaction between ChatGPT and visual information. The system is designed to enable the user to send and receive both languages and images, provide complex visual questions or editing instructions, and provide feedback and ask for corrected results. The researchers use a series of prompts to inject visual model information into ChatGPT, considering models with multiple inputs/outputs and models that require visual feedback.
+
+3️⃣ The implications of this research are that combining ChatGPT with Visual Foundation Models could enable more advanced human-AI interactions that involve both language and visual information. This could have significant applications in areas such as visual storytelling, design, and creative content creation.
+
+
 > We appreciate the open source of the following projects:
 >   Hugging Face / LangChain / Stable Diffusion / ControlNet / InstructPix2Pix / CLIPSeg / BLIP
 
